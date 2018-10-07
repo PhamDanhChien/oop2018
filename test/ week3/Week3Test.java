@@ -1,14 +1,14 @@
 package week3;
 
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
 import week3.Week3;
-import org.junit.Test;
-import org.junit.Assert.*;
 
-public class Week3Test {
+class week3Test {
 
-    // TODO: Viết 5 testcase cho phương thức max()
-
-	@Test	
+	@Test
 	void testMax() {
 		assertEquals(4, Week3.max(2, 4));
 		assertEquals(3, Week3.max(3, -19));
@@ -16,7 +16,6 @@ public class Week3Test {
 		assertEquals(5, Week3.max(5, 5));
 		assertEquals(1999, Week3.max(1999, 11));
 	}
-    // TODO: Viết 5 testcase cho phương thức minOfArray()
 	
 	@Test
 	void testArray() {
@@ -34,8 +33,7 @@ public class Week3Test {
 		assertEquals(1, Week3.minOfArray(  mang5  ) );
 		
 	}
-    // TODO: Viết 5 testcase cho phương thức calculateBMI()
-	
+
 	@Test
 	void testBmi() {
 		assertEquals(null, Week3.calculateBMI(-10, 1.67));
