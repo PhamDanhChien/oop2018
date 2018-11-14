@@ -2,7 +2,7 @@ package week10;
 
 public class Task2 {
   
-  public static void Bubble(double[] mang) {
+  	public static void Bubble(double[] mang) {
 		int n = mang.length;
 		int i, j;
 		double temp;
