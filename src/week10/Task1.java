@@ -54,7 +54,7 @@ public class Task1 {
     
     public static void main(String[] args) throws IOException{
         
-        File file = new File("C:/Users/phamc_u2d6s/Desktop/Utils.java");
+        File file = new File("Utils.java");
         List<String> a = getAllFunctions(file);
         int i = 0;
         for (String s : a) {
